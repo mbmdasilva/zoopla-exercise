@@ -1,5 +1,5 @@
 
-class alertsAndSearchesPage{
+class searchesAndAlertsPage{
 
     elements = {
         alertsSearches : () => cy.get("#content > h1"),
@@ -21,4 +21,4 @@ class alertsAndSearchesPage{
         this.elements.searchesAndAlerts().click();
     }
 }
-module.exports = new alertsAndSearchesPage();
+module.exports = new searchesAndAlertsPage();

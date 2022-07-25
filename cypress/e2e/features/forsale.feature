@@ -1,4 +1,5 @@
-Feature: Alerts and Searches page
+@wip
+Feature: Search houses for sale
  Background: User is Logged In
       Given the user is in the Zoopla homepage
       And   the user accepts cookies

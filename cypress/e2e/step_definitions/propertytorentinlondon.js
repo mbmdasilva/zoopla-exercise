@@ -4,9 +4,10 @@ import {
     And,
     Then,
   } 
+  
   from "@badeball/cypress-cucumber-preprocessor";
   const propertyToRentInLondonPage = require("../../pages/PropertyToRentInLondonPage");
-  const alertsAndSearchesPage = require("../../pages/AlertsAndSearchesPage");
+  const searchesAndAlertsPage = require("../../pages/SearchesAndAlertsPage");
 
   Given("the user navigates to the property to rent in London page", () => {
     cy.viewport(1120, 927);
@@ -39,9 +40,8 @@ import {
   });
   
   Then("the user is on the alerts and searches page", () => {
-    alertsAndSearchesPage.elements.alertsSearches().should('have.text', 'Alerts & searches');
+    searchesAndAlertsPage.elements.alertsSearches().should('have.text', 'Alerts & searches');
   });
 
-  
 
 

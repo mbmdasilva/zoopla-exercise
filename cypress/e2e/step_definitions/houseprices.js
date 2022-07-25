@@ -1,4 +1,3 @@
-
 import {
     Given,
     When,
@@ -6,8 +5,7 @@ import {
   } 
   from "@badeball/cypress-cucumber-preprocessor";
   const housePricesPage = require("../../pages/HousePricesPage");
-
-
+  
   Given("the user is in the house party searches page", () => {
     cy.visit("/house-prices/");
   });

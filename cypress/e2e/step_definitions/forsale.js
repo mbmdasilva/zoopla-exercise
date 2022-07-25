@@ -1,4 +1,3 @@
-
 import {
     Given,
     When,
@@ -7,11 +6,7 @@ import {
   from "@badeball/cypress-cucumber-preprocessor";
   const forSalePage = require("../../pages/ForSalePage");
 
-  // Given("the user is in the for sale page", () => {
-  //   forSalePage.clickForSale()
-  // });
-
-  When("the user searches for houses with garages", () => {
+  Given("the user searches for houses with garages", () => {
     forSalePage.writeKeyword();
     forSalePage.clickUpdateResults();
   });

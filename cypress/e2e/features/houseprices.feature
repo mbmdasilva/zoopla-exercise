@@ -1,4 +1,5 @@
-Feature: House prices searches
+@wip
+Feature: Search for a particular property in the house prices search
  Background: User is Logged In
         Given the user is in the Zoopla homepage
         And   the user accepts cookies

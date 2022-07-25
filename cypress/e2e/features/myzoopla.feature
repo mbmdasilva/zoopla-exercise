@@ -1,3 +1,4 @@
+@e2e-test
 Feature:  My Zoopla page helps select type of search.
    Background: User is Logged In
         Given the user is in the Zoopla homepage
