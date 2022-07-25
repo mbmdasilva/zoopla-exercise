@@ -1,0 +1,22 @@
+{
+  "name": "zoopla-exercise",
+  "version": "1.0.0",
+  "description": "This is a project to complete a test for Zoopla",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run --env TAGS='@e2e-test' --spec 'cypress/e2e/features/*.feature'"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "cucumber",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^11.5.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cypress": "^10.3.0",
+    "multiple-cucumber-html-reporter": "^1.21.4"
+  }
+}
