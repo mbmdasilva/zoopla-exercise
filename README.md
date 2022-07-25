@@ -4,6 +4,7 @@ In here you can find all the information that allows a user run the these tests.
 ##Instalation
 - Make sure that you have node installed 
 - Make sure you have npm initialiased 'npm init -y'
+- Make sure you have installed cypress'npm i cypress'
 - If first time using cypress always good to read through the documentation here : https://docs.cypress.io/guides/getting-started/installing-cypress#What-you-ll-learn
 
 ## Run the tests
